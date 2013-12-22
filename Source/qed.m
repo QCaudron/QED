@@ -51,6 +51,8 @@ clear all;
 close all;
 
 
+
+
 % Prompt user for directory
 directory = uigetdir;
 
@@ -61,7 +63,7 @@ dirtiff = ls(strcat(directory, '\*.tiff'));
 
 % If present, change them to .tif
 for i = 1 : size(dirtiff, 1)
-    movefile(dirtiff(i, :), strrep(dirtiff(i, :), '.tiff', '.tif'));
+    movefile(strcat(directory, '\', dirtiff(i, :)), strcat(directory, '\', strrep(dirtiff(i, :), '.tiff', '.tif')));
 end
 
 
