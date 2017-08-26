@@ -9,3 +9,5 @@ For stand-alone installation on Windows systems, you can download the installer 
 http://www.quentincaudron.com/qed/QED_Installer_Windows.exe
 
 Documentation is included as a PDF.
+
+![](qed_animation.gif)
